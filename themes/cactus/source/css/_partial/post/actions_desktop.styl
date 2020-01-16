@@ -93,7 +93,58 @@
 
         a
           margin-right: 0
+.nav-footer
+    width: 100%
+    font-style: normal
+    font-size: .8rem
+    text-align: center
 
+    ul
+      margin: 0
+      padding: 0
+      line-height: 15px
+
+      a
+        margin-right: 15px
+        color: $color-accent-1
+      
+      a:hover
+        underline(5px, $color-accent-1)
+
+    li
+      display: inline-block
+      margin-right: 15px
+      border-right: 1px dotted
+      border-color: $color-accent-1
+
+    li:last-child
+        margin-right: 0
+        border-right: 0
+
+      a
+        margin-right: 0
+  
+.nav-footer-info
+  width: 100%
+  text-align: center
+  font-style: italic
+
+  ul
+    margin: 0
+    padding: 0
+    line-height: 15px
+  
+  .li-prev
+    text-align: center
+    margin-right: 20px
+
+  .li-next
+    text-align: center
+
+  .li-top
+    text-align: center
+    margin-left: 20px
+  
   #actions
     float: right
     margin-top: 2rem
@@ -197,5 +248,4 @@
       .info
         display: inline
         float: left
-        margin-right: 2rem
         font-style: italic
