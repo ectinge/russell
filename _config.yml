@@ -106,5 +106,8 @@ encrypt: # hexo-blog-encrypt
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/ectinge/russell.git
+  branch: gh-pages
+  message:
 
