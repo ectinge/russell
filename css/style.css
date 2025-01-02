@@ -1275,7 +1275,22 @@ article .content .caption {
   }
 }
 .blog-post-comments {
-  margin-top: 0rem;
+  margin-top: 2rem;
+  background-color: transparent;
+}
+.blog-post-comments .comment {
+  padding: 1rem;
+  color: #c9cacc;
+  font-size: 0.9rem;
+}
+.blog-post-comments a {
+  color: #2bbc8a;
+  text-decoration: none;
+}
+.blog-post-comments .comment-date {
+  color: #6e6e6e;
+  font-size: 0.75rem;
+  margin-top: 1rem;
 }
 #footer {
   position: absolute;
