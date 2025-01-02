@@ -1,3 +1,20 @@
 <div class="blog-post-comments">
-  <h2>0 评论</h2>
-  </div>
+  <% if (page.comment) { %>
+    <h2>1 评论</h2>
+    <div class="comment">
+      <p>
+        <% if (page.comment.url) { %>
+          <strong><a href="<%= page.comment.url %>" target="_blank"><%= page.comment.name %></a></strong>
+        <% } else { %>
+          <strong><%= page.comment.name %></strong>
+        <% } %>
+      </p>
+      <p><%= page.comment.text %></p>
+      <% if (page.comment.date) { %>
+        <p class="comment-date"><%= page.comment.date %></p>
+      <% } %>
+    </div>
+  <% } else { %>
+    <h2>0 评论</h2>
+  <% } %>
+</div>
