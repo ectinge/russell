@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://ectinge.github.io/russell
-root: /
+root: /russell/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -107,7 +107,6 @@ encrypt: # hexo-blog-encrypt
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/ectinge/russell.git
+  repo: https://github.com/ectinge/russell
   branch: gh-pages
   message:
-
